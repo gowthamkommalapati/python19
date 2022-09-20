@@ -1,5 +1,5 @@
 import numpy as np
-x= np.arrray([['sunny','warm','normal','strong','warm','same','yes'],
+x= np.array([['sunny','warm','normal','strong','warm','same','yes'],
               ['sunny','warm','high','strong','warm','same','yes'],
               ['rainy','cold','high','strong','warm','change','no'],
               ['sunny','warm','high','strong','cool','change','yes']])
@@ -10,9 +10,9 @@ s=[]
 s=np.empty(c-1,dtype=object)
 for i in range(c-1):
     s[i] = "\u03A6"
-print('\n Initial specific Hypothesis is : \n",s)
+print("\n Initial specific Hypothesis is : \n",s)
       
-for i in range(1,r)
+for i in range(1,r):
       s[i] = x[0,i]
 print("Hypotheis After processing 1st training sample",s)
 for i in range(1,r):
@@ -33,7 +33,7 @@ for i in range(c-1):
       new[i]=input("enter attribute values")
 print("\n The given instance is",new)
 flag=1
-for in range(c-1);
+for i in range(c-1):
       if s[i]!='?' and s[i]!=new[i]:
           flag=0
           break
